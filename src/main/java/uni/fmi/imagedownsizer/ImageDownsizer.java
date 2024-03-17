@@ -116,7 +116,7 @@ public class ImageDownsizer extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ImageDownsizer.class.getResource("imageDownsizer.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 450, 350);
+        Scene scene = new Scene(fxmlLoader.load(), 450, 650);
         stage.setTitle("ImageDownsizer");
         stage.setScene(scene);
         stage.show();
